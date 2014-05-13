@@ -5,6 +5,13 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
+
+define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));
+define('DB_PORT',getenv('OPENSHIFT_MYSQL_DB_PORT'));
+define('DB_USER',getenv('OPENSHIFT_MYSQL_DB_USERNAME'));
+define('DB_PASS',getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
+define('DB_NAME',getenv('OPENSHIFT_GEAR_NAME'));
+
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
@@ -89,10 +96,10 @@ return array(
         ),*/
 
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=blog',
+			'connectionString' => 'mysql:host='.DB_HOST.';dbname='.DB_NAME.';port='.DB_PORT,
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'root',
+			'username' => 'adminhr3NWpq',
+			'password' => 'IXguxV7YIHv-',
 			'charset' => 'utf8',
 		),
       /*  'db'=>array(
