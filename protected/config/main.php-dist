@@ -1,0 +1,142 @@
+<?php
+/**
+ * Created by Webonise Lab.
+ * User: Priyanka Bhoir <priyanka.bhoir@weboniselab.com>
+ * Date: 16/12/13 11:37 AM
+ */
+
+
+// uncomment the following to define a path alias
+// Yii::setPathOfAlias('local','path/to/local-folder');
+
+// This is the main Web application configuration. Any writable
+// CWebApplication properties can be configured here.
+return array(
+    'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+    'name'=>'My Web Application',
+
+    // preloading 'log' component
+    'preload'=>array('log'),
+
+    // autoloading model and component classes
+    'import'=>array(
+        'application.models.*',
+        'application.components.*',
+    ),
+
+    'modules'=>array(
+        // uncomment the following to enable the Gii tool
+
+        /*'gii'=>array(
+            'class'=>'system.gii.GiiModule',
+            'password'=>'abcd',
+            // If removed, Gii defaults to localhost only. Edit carefully to taste.
+            'ipFilters'=>array('127.0.0.1','::1'),
+        ),*/
+
+    ),
+
+    // application components
+    'components'=>array(
+        'user'=>array(
+            // enable cookie-based authentication
+            'allowAutoLogin'=>true,
+        ),
+        // uncomment the following to enable URLs in path-format
+         'cache'=>array(
+                    'class'=>'system.caching.CMemCache',
+                    'useMemcached'=>true,
+                    'keyPrefix'=>'',
+                    'hashKey'=>false,
+                    'serializer'=>false,
+                    'servers'=>array(
+                        array('host'=>'drf.prometheusdata.com', 'port'=>11211,'weight'=>100)
+                    ),
+                ),
+        'urlManager'=>array(
+            'urlFormat'=>'path',
+            'showScriptName'=>false,
+            'rules'=>array(
+                '/entries/changes/*'=>'/entries',
+                'api/entries/<date:.*?>'=>'entries/tracks/eliminateWeatherDetails/true/',
+                'entries/track/*'=>'/entries/',
+                'api/results/<date:.*?>'=>'results/getTrackList/eliminateRacePostTime/true/',
+                '/results/tracks/*'=>'/results',
+                'live_odds'=>'liveOdds',
+                ''=>'/entries',
+                '/entries/date/*'=>'/entries',
+                '/results/selectedDate/*'=>'/results',
+                'live_odds/winodds/*'=>'liveOdds',
+                '<controller:\w+>/<id:\d+>'=>'<controller>/view',
+                '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+                '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                /*'gii'=>'gii',
+                'gii/<controller:\w+>'=>'gii/<controller>',
+                'gii/<controller:\w+>/<action:\w+>'=>'gii/<controller>/<action>',*/
+            ),
+        ),
+/*
+        'db'=>array(
+            'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
+        ),*/
+        'curl' => array(
+            'class' => 'ext.Curl',
+        ),
+        // uncomment the following to use a MySQL database
+        /*
+        'db'=>array(
+            'connectionString' => 'mysql:host=localhost;dbname=testdrive',
+            'emulatePrepare' => true,
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8',
+        ),
+        */
+        /*
+        'db'=>array(
+                    'class'=>'application.extensions.PHPPDO.CPdoDbConnection',
+                    'pdoClass' => 'PHPPDO',
+                    'connectionString' => 'oci:dbname=//drf-db.prometheusdata.com:1521/orcl',
+                    'emulatePrepare' => true,
+                    'username' => 'RACING_APPS',
+                    'password' => '11111111',
+                    'charset' => 'utf8',
+                    'persistent' => true
+                ),
+        */
+        'db'=>array(
+            'class'=>'application.extensions.PHPPDO.CPdoDbConnection',
+            'pdoClass' => 'PHPPDO',
+            'connectionString' => 'oci:dbname=//10.0.0.134:1521/oracle',
+            'emulatePrepare' => true,
+            'username' => 'racing_apps',
+            'password' => 'Webonise6186',
+            'charset' => 'utf8',
+        ),
+        'errorHandler'=>array(
+            'errorAction'=>'app/handleError',
+        ),
+        'log'=>array(
+            'class'=>'CLogRouter',
+            'routes'=>array(
+                array(
+                    'class'=>'CFileLogRoute',
+                    'levels'=>'error, warning',
+                ),
+                // uncomment the following to show log messages on web pages
+                /*
+                array(
+                    'class'=>'CWebLogRoute',
+                ),
+                */
+            ),
+        ),
+    ),
+
+    // application-level parameters that can be accessed
+    // using Yii::app()->params['paramName']
+    'params'=>array(
+        // this is used in contact page
+        'adminEmail'=>'webmaster@example.com',
+    ),
+);
