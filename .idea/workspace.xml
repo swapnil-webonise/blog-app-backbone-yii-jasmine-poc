@@ -28,8 +28,10 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/assignment/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="37" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="18" column="35" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1399972711416" expanded="false" signature="2707:2726" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,14 +39,23 @@
       <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="53" selection-start="231" selection-end="231" vertical-scroll-proportion="-3.75">
+            <state line="6" column="53" selection-start="231" selection-end="231" vertical-scroll-proportion="48.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yiic" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/yiic">
+      <file leaf-file-name="yiic.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/yiic.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGELOG" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -52,10 +63,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yiic.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/yiic.php">
+      <file leaf-file-name="console.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/config/console.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.22181146">
+            <state line="26" column="12" selection-start="876" selection-end="876" vertical-scroll-proportion="-11.291667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="32" selection-start="776" selection-end="776" vertical-scroll-proportion="0.41589648">
               <folding />
             </state>
           </provider>
@@ -70,28 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="41" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_cases.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/test/test_cases.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="26" column="41" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Site.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/Site.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="20" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,7 +130,6 @@
         <option value="$PROJECT_DIR$/protected/controllers/YiiController.php" />
         <option value="$PROJECT_DIR$/js/assignment/index.html" />
         <option value="$PROJECT_DIR$/demos/blog/protected/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/protected/models/Site.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
@@ -138,7 +139,9 @@
         <option value="$PROJECT_DIR$/js/test/test_cases.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/config/console.php" />
         <option value="$PROJECT_DIR$/protected/yiic.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -240,7 +243,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,7 +293,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21252973" sideWeight="0.6013333" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21649484" sideWeight="0.6013333" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39866668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -360,32 +363,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/config/console.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Site.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/jasmine-2.0.0/jasmine-html.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="41" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/base/CModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="176" column="0" selection-start="6898" selection-end="6898" vertical-scroll-proportion="0.0" />
@@ -393,9 +370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/jasmine-2.0.0/sinon-1.7.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="2" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.625">
-          <folding />
-        </state>
+        <state line="29" column="2" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
@@ -412,13 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/assignment/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/base/CComponent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="458" column="0" selection-start="15066" selection-end="15066" vertical-scroll-proportion="0.0">
@@ -428,9 +396,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="74" selection-end="74" vertical-scroll-proportion="0.026548672">
-          <folding />
-        </state>
+        <state line="1" column="5" selection-start="74" selection-end="74" vertical-scroll-proportion="0.026548672" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/test/test_cases.js">
@@ -440,30 +406,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+    <entry file="file://$PROJECT_DIR$/framework/db/ar/CActiveRecord.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="231" selection-end="231" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
+        <state line="84" column="0" selection-start="3582" selection-end="3582" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="725" column="9" selection-start="18134" selection-end="18134" vertical-scroll-proportion="0.34750462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/yiic">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/assignment/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="35" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1399972711416" expanded="false" signature="2707:2726" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="53" selection-start="231" selection-end="231" vertical-scroll-proportion="48.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/db/ar/CActiveRecord.php">
+    <entry file="file://$PROJECT_DIR$/protected/config/console.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="3582" selection-end="3582" vertical-scroll-proportion="0.0">
+        <state line="26" column="12" selection-start="876" selection-end="876" vertical-scroll-proportion="-11.291667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/yiic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.22181146">
+        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="32" selection-start="776" selection-end="776" vertical-scroll-proportion="0.41589648">
           <folding />
         </state>
       </provider>

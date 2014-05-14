@@ -16,7 +16,7 @@ return array(
 		),*/
 		// uncomment the following to use a MySQL database
 
-        'db'=>array(
+        /*'db'=>array(
             'class'=>'application.extensions.PHPPDO.CPdoDbConnection',
             'pdoClass' => 'PHPPDO',
             'connectionString' => 'oci:dbname=//10.0.0.134:1521/oracle',
@@ -24,7 +24,7 @@ return array(
             'username' => 'racing_apps',
             'password' => 'Webonise6186',
             'charset' => 'utf8',
-        ),
+        ),*/
 
 		'log'=>array(
 			'class'=>'CLogRouter',
