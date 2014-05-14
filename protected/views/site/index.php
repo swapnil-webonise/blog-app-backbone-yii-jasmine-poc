@@ -15,7 +15,7 @@
     <body>
         <div class="main">
             <div style="text-align: center;">
-                <h1>Blog Application</h1>
+                <h1>Blog Application4</h1>
             </div>
 <?php echo getenv('OPENSHIFT_MYSQL_DB_HOST').'sdf'; ?>
             <div id="abc"></div>
