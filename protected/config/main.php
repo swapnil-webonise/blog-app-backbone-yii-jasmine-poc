@@ -90,10 +90,10 @@ return array(
         ),*/
 
 		'db'=>array(
-			'connectionString' => 'mysql:host='.DB_HOST.';dbname='.DB_NAME.';port='.DB_PORT,
+			'connectionString' => 'mysql:host='.getenv('OPENSHIFT_MYSQL_DB_HOST').';dbname='.getenv('OPENSHIFT_GEAR_NAME').';port='.getenv('OPENSHIFT_MYSQL_DB_PORT'),
 			'emulatePrepare' => true,
-			'username' => 'adminhr3NWpq',
-			'password' => 'IXguxV7YIHv-',
+			'username' => getenv('OPENSHIFT_MYSQL_DB_USERNAME'),
+			'password' => getenv('OPENSHIFT_MYSQL_DB_PASSWORD'),
 			'charset' => 'utf8',
 		),
       /*  'db'=>array(
