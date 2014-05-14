@@ -1,2 +1,9 @@
 # Ignore configuration files that may contain sensitive information.
 .idea
+protected/config/main.php
+protected/config/console.php
+protected/runtime/gii*
+protected/runtime/application.log*
+protected/runtime/*
+protected/tests/php_errors.log*
+protected/php_errors.log*
